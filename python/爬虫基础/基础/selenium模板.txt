@@ -1,0 +1,12 @@
+import requests
+from lxml import etree
+import time
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+
+s=Service(executable_path='chromedriver.exe')
+driver=webdriver.Chrome(service=s)
+
+time.sleep(3)
+driver.quit()

@@ -1,0 +1,9 @@
+a={'k':1,5:2}
+print(a)
+print(type(a))
+b={}
+print(b)
+#大括号,冒号创建
+c=dict(a=1,b=2)
+print(c)
+#内置函数dict(),赋值号创建

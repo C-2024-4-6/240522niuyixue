@@ -1,0 +1,11 @@
+print('helloworld')
+print('hello\nworld')
+print('hello\tworld')
+print('hello\rworld')
+print('hello\bworld')
+print('helloo\tworld')
+print('www.\\baidu.com')
+print(r'hello\nworld')
+#前加r让转义字符无用
+print('我说;\'你好\'')
+#加\保留引号

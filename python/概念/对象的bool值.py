@@ -1,0 +1,11 @@
+#每个对象都有布尔值
+print(bool(False))
+print(bool(None))
+print(bool(''))
+print(bool(0))
+print(bool(0.0))
+print(bool(()))#空元组
+print(bool([]))#空列表
+print(bool({}))#空字典
+print(bool(set()))#空集合
+#以上对象的bool为False,剩余的为True
